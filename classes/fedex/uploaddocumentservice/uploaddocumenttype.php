@@ -1,0 +1,20 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+/**
+ * 
+ *
+ * @version     3.0
+ * @author      Jeremy Dunn
+ * @link        http://code.google.com/p/php-fedex-api-wrapper/
+ * @package     PHP FedEx API for Kohana
+ */
+class FedEx_UploadDocumentService_UploadDocumentType
+    extends FedEx_AbstractSimpleType
+{
+    const _CERTIFICATE_OF_ORIGIN = 'CERTIFICATE_OF_ORIGIN';
+    const _COMMERCIAL_INVOICE = 'COMMERCIAL_INVOICE';
+    const _ETD_LABEL = 'ETD_LABEL';
+    const _NAFTA_CERTIFICATE_OF_ORIGIN = 'NAFTA_CERTIFICATE_OF_ORIGIN';
+    const _OTHER = 'OTHER';
+    const _PRO_FORMA_INVOICE = 'PRO_FORMA_INVOICE';
+}
